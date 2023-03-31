@@ -1,0 +1,51 @@
+[
+  {
+    "title": "Desenvolvedor Back-end",
+    "salario": 2700,
+    "description": "Desenvolver featues, etc",
+    "contrato": "PJ",
+    "local": "Remoto"
+  },
+  {
+    "title": "Software Engineering",
+    "salario": 2590,
+    "description": "Atuar no desenvolvimento de software especializado no mercado de Shopping Centers. Desenvolver e consumir APIs de comunicação.",
+    "contrato": "A definir",
+    "local": "Jabaquara - São Paulo"
+  },
+  {
+    "title": "Desenvolvedor(a) Front-end",
+    "salario": 3500,
+    "description": "Desenvolver sistemas e aplicações, utilizando linguagem de programação conforme a especificação do projeto.",
+    "contrato": "CLT",
+    "local": "Hibrido"
+  },
+  {
+    "title": "Estágio em Desenvolvimento Web",
+    "salario": 1800,
+    "description": "Criação e Desenvolvimento de banners digitais fixos e responsivos.",
+    "contrato": "Contrato",
+    "local": "Remoto"
+  },
+  {
+    "title": "Software Engineer, Trilogy",
+    "salario": 6700,
+    "description": "Designing innovative commercial software and writing high-quality code to bring them into production.",
+    "contrato": "PJ",
+    "local": "Remote"
+  },
+  {
+    "title": "Jovem Aprendiz - Design",
+    "salario": 1350,
+    "description": "articipar na operação de pesquisa, com recrutamento, organização de agenda, tabulação de dados, Clusterização de dados, transcrição de entrevistas.",
+    "contrato": "PJ",
+    "local": "Santos - SP"
+  },
+  {
+    "title": "Desenvolvedor (a) React JR",
+    "salario": 4200,
+    "description": "Atuar com ferramentas de engenharia de software, como Eclipse, WebStorm, Git, entre outras.",
+    "contrato": "CLT",
+    "local": "Remoto"
+  }
+]

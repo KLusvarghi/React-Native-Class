@@ -1,10 +1,12 @@
 import { StyleSheet } from 'react-native';
 
+
 const styles = StyleSheet.create({
   container: {
     alignItems: 'center',
     justifyContent: 'center',
-    // padding: 20,
+    backgroundColor: '#0F131A',
+    fontFamily: 'Verdana'
   },
   subContainer: {
     maxHeight: 800,

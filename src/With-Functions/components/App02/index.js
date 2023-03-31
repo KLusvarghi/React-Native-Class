@@ -1,53 +1,45 @@
-import React, { Component } from 'react';
+// App 02 - Contador de Pessoas
+
+import { useState } from 'react';
 import { View, Text, Button, StyleSheet} from 'react-native';
 
-class App02 extends Component{
+export default function App02(){
 
-  constructor(props){
-    super(props); 
-    this.state = { 
-      quantiadde: 0
-    };
-    this.operacao = this.operacao.bind(this); 
-  }
+  // Hook useState
+  const [quantidade, setQuantidade] = useState(0);
+
   // Funções
-  operacao(op){
+  const operacao = (op) => {
     if(op === '+'){
-      this.setState({
-        quantiadde: this.state.quantiadde + 1
-      });
+      setQuantidade(quantidade + 1)
     }else {
-      this.setState({
-        quantiadde: this.state.quantiadde - 1
-      });
+      setQuantidade(quantidade -1)
     }
   }
 
-  render(){
     return(
       <View>
         <View style={styles.container}>
           <Text style={styles.title}>
             Contador de Pessoas
           </Text>
-          <Text style={styles.contador} >{this.state.quantiadde}</Text>  
+          <Text style={styles.contador} >{quantidade}</Text>  
         </View>
         <View style={styles.containerButton}>
           <Button 
             title="+" 
-            onPress={() => this.operacao('+')} 
+            onPress={() => operacao('+')} 
           />
         </View>
         <View style={styles.containerButton}>
           <Button 
             title="-" 
-            onPress={() => this.operacao('-')} 
+            onPress={() => operacao('-')} 
           />
         </View>
       </View>
     )
   }
-}
 
 const styles = StyleSheet.create({
   container: {
@@ -71,5 +63,3 @@ const styles = StyleSheet.create({
     borderColor: '#FAFAFA',
   }
 });
-
-export default App02;

@@ -1,4 +1,6 @@
-import React, { Component, useRef } from 'react';
+// App 03 - Multiplicação de 2 números
+
+import { Component} from 'react';
 import { View, Text, TextInput, Button, StyleSheet} from 'react-native';
 
 class App03 extends Component{

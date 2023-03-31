@@ -1,0 +1,26 @@
+[
+  {
+    "title": "BRL-USD",
+    "conversao": 0.19
+  },
+  {
+    "title": "BRL-EUR",
+    "conversao": 0.18
+  },
+  {
+    "title": "USD-BRL",
+    "conversao": 5.22
+  },
+  {
+    "title": "USD-EUR",
+    "conversao": 0.93
+  },
+  {
+    "title": "EUR-BRL",
+    "conversao": 5.55
+  },
+  {
+    "title": "EUR-USD",
+    "conversao": 1.06
+  }
+]

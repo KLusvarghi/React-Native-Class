@@ -1,0 +1,78 @@
+[
+  {
+    "title": "Dados Pessoais",
+    "description": {
+      "nome": "Kauã Ortolani Lusvarghi",
+      "idade": "19 anos",
+      "cidade": "Praia Grande - SP"
+    }
+  },
+  {
+    "title": "Formação e Certificações",
+    "description": {
+      "school": "Análise e desnvolvimento de Sistemas (5º semestre)",
+      "course": [
+        {
+          "javascript": "JavaScript",
+          "react": "React",
+          "typescript": "Typescript",
+          "sass": "Sass"
+        }
+      ]
+    }
+  },
+
+  {
+    "title": "Experiência",
+    "experiences": [
+      {
+        "stage": "Estagiário em monitoria",
+        "bartender": "Barman"
+      }
+    ]
+  },
+
+  {
+    "title": "Projetos",
+    "projects": [
+      {
+        "project01": [
+          {
+            "name": "Cronometro de afazeres",
+            "url": "https://github.com/KLusvarghi/Cronometro-de-afazeres"
+          }
+        ],
+        "project02": [
+          {
+            "name": "Destino de Interess",
+            "url": "https://github.com/KLusvarghi/Destino-de-Interesse"
+          }
+        ],
+        "project03": [
+          {
+            "name": "Cardapio aluroni",
+            "url": "https://github.com/KLusvarghi/cardapio-aluroni"
+          }
+        ],
+        "project04": [
+          {
+            "name": "Dogs",
+            "url": "https://github.com/KLusvarghi/dogs"
+          }
+        ],
+        "project05": [
+          {
+            "name": "Formulario Animado",
+            "url": "https://github.com/KLusvarghi/Formulario-Animado"
+          }
+        ],
+        "project06": [
+          {
+            "name": "Animais Fantasticos",
+            "url": "https://github.com/KLusvarghi/Animais-Fantasticos"
+          }
+        ]
+      }
+    ]
+  }
+]
